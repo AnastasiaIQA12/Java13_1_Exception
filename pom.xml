@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.netology</groupId>
-    <artifactId>products</artifactId>
+    <artifactId>ZadachaIsklSit</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -76,8 +76,6 @@
                                     <element>CLASS</element>
                                     <excludes>
                                         <exclude>*Test</exclude>
-                                        <exclude>Movie</exclude>
-                                        <exclude>MainPageManager</exclude>
                                     </excludes>
                                     <limits>
                                         <limit>

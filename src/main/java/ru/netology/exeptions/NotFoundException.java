@@ -3,7 +3,7 @@ package ru.netology.exeptions;
 import ru.netology.domain.Product;
 import ru.netology.repository.ProductRepository;
 
-public class NotFoundException extends RuntimeException{
+public class NotFoundException extends RuntimeException {
 
     public NotFoundException() {
     }
