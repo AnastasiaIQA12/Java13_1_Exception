@@ -1,7 +1,4 @@
-package ru.netology.exeptions;
-
-import ru.netology.domain.Product;
-import ru.netology.repository.ProductRepository;
+package ru.netology.ecxeption;
 
 public class NotFoundException extends RuntimeException {
 
@@ -23,6 +20,8 @@ public class NotFoundException extends RuntimeException {
     public NotFoundException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
+
+
 
 
 }
