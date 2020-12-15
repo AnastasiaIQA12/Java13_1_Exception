@@ -33,15 +33,7 @@ class ProductRepositoryTest {
 
     @Test
     void shouldRemoveByIdNo() {
-        assertThrows(NotFoundException.class,()->repository.throwUnchecked(5));
-    }
-
-    @Test
-    void shouldRemoveByIdNo1() {
-        repository.removeById(5);
-        Product[] actual = repository.findAll();
-        Product[] expected = new Product[]{book1, book2, book3, book4};
-        assertArrayEquals(expected, actual);
+        assertThrows(NotFoundException.class,()->repository.removeById(5));
     }
 
 }
